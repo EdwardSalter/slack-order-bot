@@ -1,5 +1,6 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  #content
+  script(src="/scripts/moment-with-locales.min.js")
+  script(src=dynamicUrl("/scripts/bundle.js", "main", "js"))

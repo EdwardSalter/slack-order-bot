@@ -1,0 +1,5 @@
+node_modules
+*.log
+semantic/public
+semantic/dist
+user.config.json

@@ -3,5 +3,11 @@ html
   head
     title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/semantic.min.css')
+    script(src='/scripts/jquery.min.js')
+    script(src='/scripts/semantic.min.js')
+    //- script(src='/scripts/react.js')
+    //- script(src='/scripts/react-dom.js')
   body
-    block content
+    .ui.container
+      block content

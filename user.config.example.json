@@ -1,0 +1,4 @@
+{
+    "slackApiKey": "xoxp-xxxxxxxxxxx-xxxxxxxxxxx-xxxxxxxxxxx-xxxxxxxxxx",
+    "mongoUri": "mongodb://user:pass@host:port/database"
+}
